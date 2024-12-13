@@ -1,2 +1,2 @@
 .ipynb_checkpoints
-Graphs/ # Folder containing graphs, is made running initial_visualizations.ipynb
+Graphs/*
