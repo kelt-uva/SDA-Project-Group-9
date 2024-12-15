@@ -2,7 +2,7 @@
 
 ### Students
 - Fennom Schalkwijk - 14619148
--
+- Kelt Paehlig - 14634716
 -
 
 ### Dataset
@@ -41,8 +41,12 @@ $ pip freeze > requirements.txt
 
 ### Running project
 Running the code for the project is as simple as running the
-notebook found in the notebooks folder. The graphs
-that are created in the notebook are also saved in the
+notebooks found in the notebooks folder.
+
+`initial_visualizations.ipynb` creates and stores basic visualisations of the dataset.
+`Exploration + initial implementation.ipynb` contains the data processing and analysis.
+
+The graphs that are created in the notebooks are also saved in the
 Graphs subfolder.
 
 ## TODO: more info about project
