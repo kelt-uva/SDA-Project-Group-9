@@ -3,7 +3,7 @@
 ### Students
 - Fennom Schalkwijk - 14619148
 - Kelt Paehlig - 14634716
--
+- Babet Wijsman - 13805592
 
 ### Dataset
 The [dataset](https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset) is created
@@ -44,7 +44,10 @@ Running the code for the project is as simple as running the
 notebooks found in the notebooks folder.
 
 `initial_visualizations.ipynb` creates and stores basic visualisations of the dataset.
-`Exploration + initial implementation.ipynb` contains the data processing and analysis.
+`processing_and_analysis.ipynb` contains the data processing and analysis.
 
 The graphs that are created in the notebooks are also saved in the
 Graphs subfolder.
+
+### Brief Project Background
+The goal was to fit a model that can predict whether an individual has heart disease based on several risk factors using a large dataset created by the CDC with their Behavioral Risk Factor Surveillance System (BRFSS) survey. We explored logistic regression models given the binary nature of the dependent variable. We fit a model using all the features of the dataset to use as a baseline comparison. We simulated normal distributions for each coefficient and interpreted how each variable affected the odds of having heart disease. We then performed a principal component analysis to generate PCs to fit a second logistic regression model. We then performed k-fold cross validation on both models, and computed the accuracy score and akaike information criterion (AIC) to compare the models. Based on the distributions of these scores we then concluded which model provided a better fit, and explained why this could have been the case. Still suspicious of overfitting, we proceeded with an arbitrary analysis to exemplify how we could construct an accurate model with minimal variables.
