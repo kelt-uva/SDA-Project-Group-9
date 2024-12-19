@@ -48,5 +48,3 @@ notebooks found in the notebooks folder.
 
 The graphs that are created in the notebooks are also saved in the
 Graphs subfolder.
-
-## TODO: more info about project
